@@ -19,7 +19,7 @@ class InteractiveRecord
       column_names << column ["name"]
     end
     #removes blank column titles
-    column_name.compact
+    column_names.compact
   end
 
 end
