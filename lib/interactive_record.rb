@@ -32,4 +32,8 @@ class InteractiveRecord
     self.class.table_name
   end
 
+  def col_name_for_insert
+    
+  end
+
 end
