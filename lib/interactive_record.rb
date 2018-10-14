@@ -57,7 +57,7 @@ class InteractiveRecord
       "SELECT * FROM #{self.table_name}
       WHERE name = '#{name}'"
     SQL
-    DB:[conn].execute(sql)
+    DB[:conn].execute(sql)
   end
 
 end
